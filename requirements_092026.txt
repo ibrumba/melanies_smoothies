@@ -1,8 +1,13 @@
-name: app_environment
-channels:
-  - snowflake
-dependencies:
-  - python=3.11.*
-  - snowflake-snowpark-python=*
-  - streamlit=*
-  - requests
+# requirements.txt
+# name: app_environment
+# channels:
+# - snowflake
+# dependencies:
+# - python=3.11.*
+# - snowflake-snowpark-python=*
+# - streamlit=*
+# - requests
+snowflake-connector-python
+snowflake-snowpark-python
+streamlit==1.52.2
+requests
